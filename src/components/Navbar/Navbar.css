@@ -1,5 +1,17 @@
+svg {
+  fill: #304769;
+}
+
+.logo{
+  height: 10vh;
+  width: 30vw;
+  position: absolute;
+  top: 0;
+  left: 10px;
+}
+
 .navbar {
-  background-color: #304769;
+  background-color: #c3e8b9;
   height: 80px;
   display: flex;
   justify-content: flex-end;
