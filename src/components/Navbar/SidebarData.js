@@ -2,7 +2,6 @@ import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
 import * as IoIcons from "react-icons/io";
 
-
 export const SidebarData = [
   {
     title: "Home",
@@ -17,10 +16,9 @@ export const SidebarData = [
     cName: "nav-text",
   },
   {
-    title: "Emissions",
-    path: "/Emissions",
+    title: "Emission",
+    path: "/Emission",
     icon: <FaIcons.FaCartPlus />,
     cName: "nav-text",
   },
-  
 ];

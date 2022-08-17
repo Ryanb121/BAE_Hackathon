@@ -1,0 +1,15 @@
+:root {
+  background-color: #c3e8b9;
+}
+
+.wheel {
+  height: 100px;
+  width: 100px;
+}
+
+.emission-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
