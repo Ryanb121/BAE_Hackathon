@@ -1,6 +1,7 @@
-
 import Axios from "axios";
 import { useState } from "react";
+import wheelImage from "../../images/Group9.png";
+import "./Emissions.css";
 
 const Emission = () => {
   const [toAdd, setToAdd] = useState("");
@@ -24,12 +25,16 @@ const Emission = () => {
     setToAdd(e.target.value);
   }
   return (
-    <div>
+    <div className="emission-body">
+      <h2>Travel</h2>
+      {/* <input>Distance</input>
+      <input>Car</input> */}
+
       <input type="text" onChange={handleChange} />
       <button onClick={putEmission}>Add emission</button>
+      <img className="wheel" src={wheelImage} alt={"wheel"} />
     </div>
   );
 };
 
 export default Emission;
-
